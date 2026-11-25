@@ -1,8 +1,8 @@
 {
   "name": "gitmerge",
   "displayName": "Git Merge Conflict Resolver",
-  "version": "1.0.0",
-  "description": "Automated detection, formatting auto-resolution, and structured semantic decision guidance for Git merge conflicts.",
+  "version": "1.1.0",
+  "description": "Automated detection, IDE conflict opening, formatting auto-resolution, and structured semantic decision guidance for Git merge conflicts.",
   "author": "Danish Qamar",
   "suggestedPrompts": [
     "Scan and resolve all Git merge conflicts in this repository",

@@ -1,10 +1,11 @@
 # Git Merge Conflict Resolver (`gitmerge`)
 
-Bundles three Git merge conflict resolution skills and their Python helper scripts into a single Antigravity plugin:
+Bundles four Git merge conflict resolution skills and their helper scripts into a single Antigravity plugin:
 
 - **`resolve-conflicts`** (`skills/resolve-conflicts/SKILL.md` + `scripts/resolve-conflicts.py`) — Unified two-phase resolver for trivial formatting and non-trivial semantic conflicts.
 - **`resolve-trivial-conflicts`** (`skills/resolve-trivial-conflicts/SKILL.md` + `scripts/resolve-trivial-conflicts.py`) — Auto-merges whitespace/newline (PHP) and semicolon/whitespace (JS/TS) conflicts by keeping `HEAD`.
 - **`resolve-nontrivial-conflicts`** (`skills/resolve-nontrivial-conflicts/SKILL.md` + `scripts/inspect-conflict.py`) — Extracts hunk diffs, commit intent, and archetypes with clickable line-number choices.
+- **`open-unmerged-files`** (`skills/open-unmerged-files/SKILL.md` + `scripts/open-unmerged.sh`) — Detects unmerged Git paths and opens each file in the active IDE positioned at the first conflict marker.
 
 ---
 
@@ -29,7 +30,7 @@ mkdir -p ~/.gemini/config/plugins
 tar -xzf gitmerge-plugin.tar.gz -C ~/.gemini/config/plugins
 ```
 
-Verify the manifest exists at `~/.gemini/config/plugins/gitmerge/plugin.json`. Antigravity discovers plugins automatically and loads all three skills on the next turn.
+Verify the manifest exists at `~/.gemini/config/plugins/gitmerge/plugin.json`. Antigravity discovers plugins automatically and loads all four skills on the next turn.
 
 ---
 
