@@ -1,0 +1,12 @@
+{
+  "name": "gitmerge",
+  "displayName": "Git Merge Conflict Resolver",
+  "version": "1.0.0",
+  "description": "Automated detection, formatting auto-resolution, and structured semantic decision guidance for Git merge conflicts.",
+  "author": "Danish Qamar",
+  "suggestedPrompts": [
+    "Scan and resolve all Git merge conflicts in this repository",
+    "Auto-resolve trivial formatting conflicts in unmerged PHP and JS files",
+    "Analyze non-trivial merge conflicts in the current file with resolution options"
+  ]
+}
